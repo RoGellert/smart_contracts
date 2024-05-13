@@ -6,7 +6,7 @@ import { MainContract } from "../wrappers/MainContract";
 import "@ton-community/test-utils"
 
 describe("main.fc contract tests", () => {
-    it("proper most recent sender address", async () => {
+    it("proper most recent sender address test", async () => {
         const codeCell = Cell.fromBoc(Buffer.from(hex, "hex"))[0];
 
         const blockchain = await Blockchain.create();
